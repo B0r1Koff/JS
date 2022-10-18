@@ -50,7 +50,7 @@ switch(choice){
         alert("Cube volume : " + cubeVolume(a) + "\nCube area : " + cubeArea(a));
         break;
     }
-    case "2", "4":{
+    case "2": case "4":{
         let baseArea = Input("Input the base area : "), sideSurfaceArea = Input("Input the side surface area : "), h = Input("Input h : ");
         alert("Volume : " + Volume(baseArea, h) + "\nArea : " + Area(baseArea, sideSurfaceArea));
         break;
